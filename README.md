@@ -16,7 +16,7 @@ After introducing and working with Lists, we must be wondering if there are othe
 
 Okay, so, in this lesson we are going to be introducting not only a new type of collection in Python, but also a new datatype. Why? We already have lists, which we know we can use to keep groups of related data together. What is so great about dictionaries? Well, while lists are great, for *listing* information like we mentioned earlier, they can actually become very messy when we are trying to use them to organize data which is more a bit more complex. Let's look at a brief example of a person.
 
-Every person has a **name**, **age**, **height** (in inches), **weight** (in lbs), and **fav_programming_language**. How we would represent a person using a list?
+Every person has a **name**, **age**, **height** (in inches), **weight** (in lbs), and **fav_lang**. How we would represent a person using a list?
 
 ```python
 terrance = ["Terrance", 25, "6'00", 165, "Python"]
@@ -27,10 +27,10 @@ Now, that looks *fine* but what do we do if we want to tell someone terrance's f
 However, if we use a dictionary, we can more neatly organize this information and make it easier for us to use as the dictionary grows. Let's see what terrance's information would look like using a dictionary.
 
 ```python
-terrance = {'name': "Terrance", 'age': 25, 'weight': 72, 'height': 165, 'fav_programming_language': "Python"}
+terrance = {'name': "Terrance", 'age': 25, 'weight': 72, 'height': 165, 'fav_lang': "Python"}
 ```
 
-This dictionary definitely has more text in it, but we can see a direct association between the *attribute* or **key** and its correlated **value** (i.e. {'key': "value"}). This datatype makes it easier to store and access information, such as the attributes of a person or other entity.
+This dictionary definitely has more text in it, but we can see a direct association between the *attribute* or **key** and its correlated **value** (i.e. `{'key': "value"}`). This datatype makes it easier to store and access information, such as the attributes of a person or other entity.
 
 Let's take a deeper look at how dictionaries are built and how they work.
 
