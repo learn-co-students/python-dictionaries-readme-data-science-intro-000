@@ -27,7 +27,7 @@ Now, that looks *fine* but what do we do if we want to tell someone terrance's f
 However, if we use a dictionary, we can more neatly organize this information and make it easier for us to use as the dictionary grows. Let's see what terrance's information would look like using a dictionary.
 
 ```python
-terrance = {'name': "Terrance", 'age': 25, 'weight': 72, 'height': 165, 'fav_lang': "Python"}
+terrance = {'name': "Terrance", 'age': 25, 'weight': 165, 'height': 72, 'fav_lang': "Python"}
 ```
 
 This dictionary definitely has more text in it, but we can see a direct association between the *attribute* or **key** and its correlated **value** (i.e. `{'key': "value"}`). This datatype makes it easier to store and access information, such as the attributes of a person or other entity.
