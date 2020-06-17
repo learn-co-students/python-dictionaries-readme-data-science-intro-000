@@ -357,6 +357,6 @@ Ok so our approach here was to break this problem down into steps.  We first sel
 
 In this section, we saw a new type of collection, the dictionary.  A dictionary is a sequence of key-value pairs.  We mark the start and end of a dictionary with curly braces, `{}`, and then follow the pattern of `'key':'value'` for each of the associated attributes, with each attribute separated by a comma: `dictionary = {'key1':'value1', 'key2':'value2'}`.  
 
-We retrieve a specific value from a dictionary by using the bracket accessor in combination with the key, so `dictionary['key2]'` returns `'value2'`.  And we add a new attribute with the format `dictionary['key3'] = 'value3'`.
+We retrieve a specific value from a dictionary by using the bracket accessor in combination with the key, so `dictionary['key2']` returns `'value2'`.  And we add a new attribute with the format `dictionary['key3'] = 'value3'`.
 
 Finally, we saw that we can represent data as nested data structures.  In working with nested data structures a good technique is to pay attention to the edges of the data structure as in `[{`, and then articulate how that data structure is nested.  Finally, when accessing data from a nested data structure, it is useful to break down the problem into steps to get feedback along the way.
