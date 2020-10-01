@@ -1,9 +1,9 @@
 
 # Dictionaries 
 
-### Introduction
+### Introduction 
 
-After introducing and working with Lists, we must be wondering if there are other kinds of collections in Python that we should know about. Well, there are! In this lesson, we will introduce **Dictionaries**. As we know, lists represent a collection of information that is ordered, like a list of the most watched TV shows.  However, in different situations, we may want our data to represent attributes of an entity, for example, the various attributes of a single TV show like its name, genre, starring actors, etc.  For this, we can use a **dictionary**. 
+After introducing and working with Lists, we must be wondering if there are other kinds of collections in Python that we should know about. Well, there are! In this lesson, we will introduce **Dictionaries**. As we know, lists represent a collection of information that is ordered, like a list of the most watched TV shows.  However, in different situations, we may want our data to represent attributes of an entity, for example, the various attributes of a single TV show like its name, genre, starring actors etc.  For this, we can use a **dictionary**. 
 
 ## Learning Objectives
 
